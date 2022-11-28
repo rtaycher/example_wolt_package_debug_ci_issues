@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "example_wolt_package_debug_ci_issues"
-version = "0.0.1"
+version = "0.0.2"
 description = "what it says on the tin, not a real package"
 authors = [
     "Roman A. Taycher <rtaycher.devmail@gmail.com>",
