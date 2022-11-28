@@ -1,0 +1,18 @@
+{
+  "template": "https://github.com/woltapp/wolt-python-package-cookiecutter",
+  "commit": "939ec0f2b97c172178eb5c77fb61a7df937696aa",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "author_name": "Roman A. Taycher",
+      "author_email": "rtaycher.devmail@gmail.com",
+      "github_username": "rtaycher",
+      "project_name": "example_wolt_package_debug_ci_issues",
+      "project_slug": "example_wolt_package_debug_ci_issues",
+      "package_name": "example_wolt_package_debug_ci_issues",
+      "project_short_description": "what it says on the tin, not a real package",
+      "_template": "https://github.com/woltapp/wolt-python-package-cookiecutter"
+    }
+  },
+  "directory": null
+}
