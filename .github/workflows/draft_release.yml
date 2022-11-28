@@ -25,6 +25,7 @@ jobs:
         id: changelog
         shell: bash
         run: |
+          poetry run kacl-cli verify
           poetry run kacl-cli release ${{ steps.updated_version.outputs.version }} --modify --auto-link
           echo "" >> CHANGELOG.md
           body=$(poetry run kacl-cli get ${{ steps.updated_version.outputs.version }})
